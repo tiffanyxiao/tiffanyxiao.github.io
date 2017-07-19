@@ -3,25 +3,29 @@
   list-style-type: none;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #40B8AF
+  background-color: #40B8AF;
 }
 
-#navbutton{
-  float: left;
-  display: inline
+#navbar li{
+  display: inline;
 }
 
-#navbutton a{
+#navbar a{
   display: inline-block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-#navbutton a:hover{
-  background-color: #257E78;
+#navbar a:hover{
+  background-color: #257E78
 }
 
-#intro {
-  font-family: "Helvetica";
+* {
+  font-family: "Helvetica"
+}
+
+img {
+  height: 300px;
+  width: 300px;
 }
