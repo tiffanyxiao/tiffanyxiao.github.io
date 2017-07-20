@@ -3,18 +3,18 @@
   list-style-type: none;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #40B8AF;
+  background-color: #40B8AF
 }
 
 #navbar li{
-  display: inline;
+  display: inline
 }
 
 #navbar a{
   display: inline-block;
   color: white;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none
 }
 
 #navbar a:hover{
@@ -27,5 +27,17 @@
 
 img {
   height: 300px;
-  width: 300px;
+  width: 300px
+}
+
+#intro {
+  color: #696969
+}
+
+#title {
+  color: gray
+}
+
+#title{
+  color: #2F4F4F
 }
