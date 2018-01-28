@@ -24,6 +24,7 @@
   <center>
   <h1> Tiffany's Projects </h1>
   <h3> Click on a project to view details </h3>
+  <h5> Feel free to email me any questions about my projects. </h5>
   <!--- Row 1 -->
   <div style = "float: left; width: 24%;margin-right: 1%; margin-bottom: 0.5em;">
     <!-- Trigger/Open the Modal -->
@@ -36,21 +37,46 @@
       <div class="modal-content">
         <span class="close">&times;</span>
         <img src="placeholder.jpg" style="width: 40%; float: left">
-        <h1> Title </h1>
-        <h2> Date Completed: </h2>
-        <h2> Partners: </h2>
-        <h2> Skills Used: </h2>
+        <h1> Predicting Airbnb Superhost Status </h1>
+        <h2> Date Completed: December 15, 2017 </h2>
+        <h2> Partner(s): Shirley Xu </h2>
+        <h2> Skills Used: R, Machine Learning</h2>
         <p style="clear: both;">
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et enim ut orci laoreet malesuada. Mauris malesuada aliquet nibh, sed congue nisi finibus id. Pellentesque convallis urna velit, et varius arcu pellentesque at. Nulla ullamcorper nisl in purus rutrum, eget ornare felis sollicitudin. Maecenas nec luctus erat. Aenean elementum erat sed urna sagittis, nec molestie mi eleifend. Suspendisse accumsan augue quis malesuada porta. Quisque id ipsum arcu. Integer euismod vitae lacus eget tempor.
-        Sed sit amet lorem id lectus dictum elementum sed sed risus. Suspendisse a justo libero. Ut cursus nisi mi, eu ultricies lacus tempor non. Vivamus bibendum nisl a magna semper, at volutpat sem convallis. Fusce vitae dui ullamcorper libero porttitor ornare. Sed facilisis vehicula cursus. Integer in dui venenatis, tincidunt metus eu, cursus tellus. Cras dignissim varius volutpat. Aliquam lobortis a ipsum ut tempus. Proin semper sapien et porta laoreet. </p>
+        <p>
+          The objective of this project is to attempt to find the factors that can best predict whether a host is a superhost on Airbnb, utilizing the dataset available at <a href = "http://www.airbnb.com/help/article/828/what-is-a-superhost">link</a>.
+          <br><br> We utilized two modeling techniques - logistic regression and classification tree. The logistic regression model correctly predicted superhost status 70.66% of the time on the test set, with a sensitivity value of 0.6748 and a specificity value of 0.7395.
+          The classification tree correctly predicted superhost status 83.87% of the time on the test set, with the 3 predictor variables used in the tree construction are `number_of_reviews`, `host_total_listings_count`, and `review_scores_rating`.
+          <br><br> Both modeling techniques identified `number_of_reviews` and `review_scores_rating` as
+          the most significant predictors in predicting whether or not a host is a superhost. Thus, the most
+          reliable way to predict superhost status is most likely by finding out how many 5-star reviews a
+          host has.
+        </p>
       </div>
     </div>
   </div>
   <div style = "float: left; width: 24%;margin-right: 1%; margin-bottom: 0.5em;">
-    <img src="placeholder.jpg" style="width: 100%">
+    <!-- Trigger/Open the Modal -->
+    <img id="myBtn" src="placeholder.jpg" style="width: 100%">
     <br>
     <p> Title </p>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="placeholder.jpg" style="width: 40%; float: left">
+        <h1> Title </h1>
+        <h2> Date Completed:  </h2>
+        <h2> Partner(s):  </h2>
+        <h2> Skills Used: </h2>
+        <p style="clear: both;">
+        <br>
+        <p>
+          Description
+        </p>
+      </div>
+    </div>
   </div>
   <div style = "float: left; width: 24%;margin-right: 1%; margin-bottom: 0.5em;">
     <img src="placeholder.jpg" style="width: 100%">
