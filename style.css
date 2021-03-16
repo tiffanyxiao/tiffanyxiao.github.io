@@ -6,7 +6,7 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #4BB7AE;
+  background-color: #ecc3b6;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -14,14 +14,14 @@
 }
 
 #topBtn:hover {
-  background-color: #0A564F
+  background-color: #ecc3b6;
 }
 
 #header{
   float: left;
   width: 100%;
   height: 200px;
-  color: #7c7c7c;
+  color: #949494;
   background: #f7eaf4
 }
 
@@ -30,7 +30,7 @@
   list-style-type: none;
   margin: 0 auto;
   overflow: hidden;
-  background-color: #40B8AF
+  background-color: #ecc3b6
 }
 
 #navbar li{
@@ -45,7 +45,7 @@
 }
 
 #navbar a:hover{
-  background-color: #257E78
+  background-color: #ecdfcf
 }
 
 * {
@@ -53,15 +53,19 @@
 }
 
 #intro {
-  color: #696969
+  color: #949494
 }
 
 #title {
-  color: gray
+  color: #080808
 }
 
-#title{
-  color: #2F4F4F
+#quote{
+  color: #e0dede
+}
+
+#main{
+  padding: 100px;
 }
 
 .icon{
@@ -120,19 +124,7 @@
 }
 
 .code{
-  background: #2F7E78;
-}
-
-.art{
-  background: #6A2D5B
-}
-
-.data{
-  background: #AF577C
-}
-
-.passion{
-  background: #F2B176
+  background: #a1a1a1;
 }
 
 .section_title{
@@ -142,6 +134,7 @@
 }
 
 #section_text_code{
+  font-size: 1.8vw;
   margin-left: 50px;
   margin-right: 50px;
   color: white

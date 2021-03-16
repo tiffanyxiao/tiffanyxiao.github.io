@@ -6,7 +6,7 @@
   <script type = "text/javascript" src = "script.js"></script>
   <title> Tiffany Xiao </title>
 </head>
-<body>
+<body onload="onLoadFunction()">
   <button onclick = "topFunction()" id = "topBtn" title = "Go to top"> Top </button>
   <!--- Header
   <div id = "header">
@@ -17,77 +17,46 @@
   <div>
     <ul id = "navbar">
       <li class = "active"><a href = "index.html"> Home </a></li>
-      <li><a href = "about.html"> About </a></li>
-      <li><a href = "blog.html"> Blog </a></li>
-      <li><a href = "experience.html"> Experience </a></li>
-      <li><a href = "projects.html"> Projects </a></li>
-      <!--- Resume
       <li><a href = "resume.html"> Resume </a></li>
-      -->
-      <li><a href = "contact.html"> Contact </a></li>
+      <li><a href = "projects.html"> Projects </a></li>
     </ul>
   </div>
   <!-- Main section -->
-  <div>
+  <div id = "main">
     <center>
       <br>
       <img src ="pic.png" alt = "Picture of Tiffany Xiao" style = "width: 300px; height: 300px;">
-      <h1 id = "intro"> HI, I'M <font color="#6A2D5B">TIFFANY XIAO</font> </h1>
-      <h2 id = "title"> Aspiring Software Engineer </h2>
-      <h3 id = "quote"> "If you can dream it, you can do it" -Walt Disney </h3>
-      <div>
-        <a href = "#code" class = "all_icons">
-          <img src = "Art/Icons/code.png" alt = "Code Icon" class = "icon">
-          <p class = "icon_descript code"> Programming </p>
-        </a>
-        <a href = "#art" class = "all_icons">
-          <img src = "Art/Icons/brush.png" alt = "Brush Icon" class = "icon">
-          <p class = "icon_descript art"> Graphic Design </p>
-        </a>
-        <a href = "#data" class = "all_icons">
-          <img src = "Art/Icons/data.png" alt = "Data Icon" class = "icon">
-          <p class = "icon_descript data"> Data Science </p>
-        </a>
-        <a href = "#passion" class = "all_icons">
-          <img src = "Art/Icons/heart.png" alt = "Heart Icon" class = "icon">
-          <p class = "icon_descript passion"> Passions </p>
-        </a>
-      </div>
+      <h1 id = "intro"> HI, I'M <font color="#ecc3b6">TIFFANY XIAO</font> </h1>
+      <h2 id = "title"> Software Engineer with a love for data</h2>
+      <h3 id = "quote"> (and dogs) </h3>
+      <a href="https://www.linkedin.com/in/tiffanyxiao/"><img src="linkedin.png" style = "width: 40px; height: 40px"></a>
+      <a href="mailto:cdtiffanyxiao@gmail.com"><img src="email.png" style = "width: 40px; height: 40px"></a> 
     </center>
   </div>
   <!-- Code section -->
   <div class = "section code" id = "code">
-    <h1 class = "section_title"> Programming </h1>
-    <p id = "section_text_code"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat augue a tristique dictum. Donec pulvinar, enim quis fermentum congue, eros neque mattis leo, sed tincidunt eros velit nec dui. Mauris pulvinar viverra sem quis congue. Morbi euismod tempus felis vel vehicula. Praesent sed turpis pretium, laoreet metus id, eleifend tortor. Ut in diam ante. Sed dui ligula, pellentesque ac magna quis, pulvinar facilisis lectus. Phasellus ut laoreet enim. Quisque pretium auctor nisl et molestie. Aliquam at elementum lorem. Curabitur eleifend lorem mi, dignissim pretium libero commodo in.
-    
-    Vivamus volutpat elit scelerisque, congue lacus sed, aliquam lorem. Suspendisse ut risus mauris. Donec cursus a sem eget sagittis. In est erat, imperdiet ac pharetra id, faucibus non nisi. Mauris purus mauris, pulvinar sed imperdiet in, semper eu mi. Nunc in est odio. Sed vel pretium sem, id pharetra elit. Duis non risus ex. Nam interdum quam ac odio vestibulum, sed pulvinar magna ultricies. Curabitur egestas hendrerit fringilla. Nunc euismod sapien elementum, placerat ex et, placerat sem. Phasellus nibh magna, semper eget quam a, accumsan sodales dui. Nam quis dui et eros auctor lobortis non ac sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas at elit sodales, pharetra massa in, rutrum libero.
-
-    Nunc ac risus vitae mi eleifend consequat. Fusce lobortis ex vel justo elementum, vehicula lobortis enim ullamcorper. Proin nec lorem id est rutrum feugiat. Suspendisse justo quam, dapibus a diam sed, molestie mattis libero. Sed pellentesque vel purus vel ultricies. Proin eu ligula a leo sodales fermentum. Integer pulvinar, quam id efficitur viverra, nulla nunc ultrices dolor, id dictum justo magna nec neque. Donec finibus quam id tellus dapibus, eget semper sem blandit.
-
-    Praesent egestas dolor in aliquet ultrices. Cras porta ac ante porttitor molestie. Aliquam erat volutpat. Integer lacinia vehicula nisi eget lobortis. Ut ullamcorper efficitur magna, at facilisis lacus volutpat ac. Duis nisl justo, tempus eu rhoncus a, sollicitudin vitae libero. Fusce vulputate metus eu rutrum hendrerit. Fusce vel lorem vel ligula sagittis cursus a id enim. In finibus ligula ut justo faucibus, et lacinia ante sodales. Vestibulum pretium, mi eget blandit placerat, nulla massa suscipit risus, et tempus felis elit vel tellus.
-    </p>
-    <center>
-    <img src = "girlswhocode2.png" class = "bottom_image">
-    </center>
-  </div>
-  <!-- Design section -->
-  <div class = "section art" id = "art">
-    <p id = "section_text_art">
-    <h1 class = "section_title"> Graphic Design </h1>
-      <img src = "Art/Images/code1.png" id = "right_image_top">
-      <img src = "Art/Images/code1.png" id = "right_image_bottom">
-      <p id = "section_text_art">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-    </p>
-  </div>
-  <!-- Data science section -->
-  <div class = "section data" id = "data">
-    <h1 class = "section_title"> Data Science </h1>
-  </div>
-  <!-- Other passions section -->
-  <div class = "section passion" id = "passion">
-    <h1 class = "section_title"> Passions </h1>
+    <div>
+      <h1 class = "section_title"> About Me </h1>
+      <div style="width:75%;float:left;">
+        <p id = "section_text_code"> 
+          I graduated a little over a year ago from Smith College as a double major in Computer Science and Statistical Data Sciences. During my time at Smith, I spent my days doing things like conducting statistical research projects with elementary school children, contributing to open source coding projects and learning tai chi.
+          <br> 
+          <br>
+          Since then, I've been coding away at Palantir Technologies as a Forward Deployed Software Engineer. At Palantir, I could be building a data pipeline one second and watching someone use my dashboards in a clinical patient review in another. As a Forward Deployed Software Engineer, I work on many projects to deliver meaningful impact to my clients. 
+          <br>
+          <br>
+          When I'm not working, you can usually find me playing with my super cute pup (his name is Tofu), playing video games or trying out a new creative hobby (currently, that's baking with my little sister, and I'm a huge fan of arts and crafts). I also really enjoy hanging out with friends in my hometown of Brooklyn, New York - especially when there's food involved! 
+          <br>
+          <br>
+          Press "T" for a fun surprise!
+          <img src="tofu_eating-removebg-preview.png" alt = "Picture of Tofu ready to eat!" style = "width: 10%; height: 10%;" id="tofu-eating">
+        </p>
+      </div>
+      <div style="padding-bottom:10%;width:25%;float:right;">
+        <img src ="tofu.jpg" alt = "Picture of Tofu, Tiffany's dog" style = "width: 75%; height: 75%;">
+        <img src ="dumbo.png" alt = "Picture of Two Dumbos" style = "width: 75%; height: 75%;">
+      </div> 
+    </div>
   </div>
   <!-- Bottom section -->
   <div>
