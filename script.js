@@ -2,7 +2,9 @@ window.onscroll = function() {scrollFunction()};
 let docHeight;
 let docWidth;
 let numBones = 0;
+let boneElementID = [];
 let bonePosMany = [];
+let functionRunning = false;
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -21,8 +23,9 @@ function createBoneImg(){
     let boneImg = document.createElement("img");
     boneImg.setAttribute('src', 'bone.png');
     boneImg.setAttribute('alt', 'cute bone for tofu image');
-    boneImg.setAttribute('height', '10%');
-    boneImg.setAttribute('width', '10%');
+    boneImg.setAttribute('height', '60vw');
+    boneImg.setAttribute('width', '60vw');
+    boneImg.setAttribute('id', 'bone'+numBones);
 
     boneImg.style.position = "absolute";
     let xpos = Math.floor(Math.random() * docWidth * 0.90 + docWidth * 0.05);
@@ -31,27 +34,61 @@ function createBoneImg(){
     boneImg.style.left = xpos + "px";
     boneImg.style.top = ypos + "px";
     document.body.appendChild(boneImg);
-    bonePosMany.push([xpos, ypos])
+    bonePosMany.push([xpos, ypos]);
+    boneElementID.push('bone'+numBones)
     numBones += 1;
 }
 
+let id = null;
+function tofuMove() {
+    functionRunning = true;
+    let elem = document.getElementById("tofu-eating");   
+    let xpos = Math.floor(elem.getBoundingClientRect().left + window.scrollX);
+    let ypos = Math.floor(elem.getBoundingClientRect().top + window.scrollY);
+    clearInterval(id);
+    id = setInterval(frame, 1);
+    function frame() {
+    if (xpos == bonePosMany[0][0] && ypos == bonePosMany[0][1]) {
+        clearInterval(id);
+        bonePosMany.shift();
+        let el = document.getElementById(boneElementID[0]);
+        el.parentNode.removeChild(el);
+        boneElementID.shift();
+        functionRunning = false;
+    } else {
+        if (xpos != bonePosMany[0][0]){
+            if (xpos < bonePosMany[0][0]){
+                xpos++; 
+            } else {
+                xpos--;
+            } 
+            elem.style.left = xpos + 'px'; 
+        } 
+        if (ypos != bonePosMany[0][1]){
+            if (ypos < bonePosMany[0][1]){
+                ypos++; 
+            } else {
+                ypos--;
+            } 
+            elem.style.top = ypos + 'px'; 
+        }
+    }
+    }
+}
+
 function onLoadFunction(){
-    console.log("hi");
     docHeight = document.body.scrollHeight;
     docWidth = document.body.scrollWidth;
     document.addEventListener("keyup", function(event) {
         if (event.keyCode == 84) {
             createBoneImg();
+            tofuMove();
         }
     });
-
-    // while (numBones > 0){
-    //     let tofuImg = document.getElementById("tofu-eating");
-    //     for (let bonePos in bonePosMany){
-    //         while(tofuImg.xpos!=bonePos[0] && tofuImg.ypos!=bonePos[1]){
-    //             tofuImg.style.left = xpos+1;
-    //             tofuImg.style.top = ypos+1;
-    //         }
-    //     }
-    // }
 }
+
+setInterval(function() {
+    if(!functionRunning && numBones > 0) {
+        tofuMove();
+    }
+}, 500);

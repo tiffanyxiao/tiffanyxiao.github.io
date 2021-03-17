@@ -28,6 +28,7 @@
 #navbar{
   text-align: center;
   list-style-type: none;
+  font-size: 2vw;
   margin: 0 auto;
   overflow: hidden;
   background-color: #ecc3b6
@@ -53,19 +54,46 @@
 }
 
 #intro {
-  color: #949494
+  color: #949494;
+  font-size: 3vw;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 0;
 }
 
 #title {
-  color: #080808
+  color: #080808;
+  font-size: 2vw;
+  padding-bottom: 0;
+  margin: 0;
 }
 
 #quote{
-  color: #e0dede
+  color: #e0dede;
+  font-size: 2vw;
+  margin: 1%;
+  padding-bottom: 1%;
 }
 
 #main{
-  padding: 100px;
+  padding: 2%;
+}
+
+#main-pic{
+  width: 25%;
+  height: 25%;
+}
+
+#social-media-icons img{
+  width: 3%; 
+  height: 3%;
+  padding: 0.25%;
+}
+
+#about-me-text{
+  font-size: 4vw;
+  padding-top: 2%;
+  margin: 0;
 }
 
 .icon{
@@ -89,27 +117,6 @@
   z-index: 1;
   opacity: 0;
   transition: opacity .2s, visibility .2s
-}
-
-.all_icons:hover .icon_descript{
-  visibility: visible;
-  opacity: 1
-}
-
-.all_icons .code{
-
-}
-
-.all_icons .art{
-
-}
-
-.all_icons .data{
-
-}
-
-.all_icons .passion{
-
 }
 
 .section{
@@ -179,66 +186,6 @@
   height: 20px;
   padding: 4px;
   color: white
-}
-
-#eatDiv {
-    display: none;
-    width: 100%;
-    height: 320px;
-    padding: 10px 0;
-    text-align: center;
-    background-color: #bedbd8;
-    margin-top: 20px;
-}
-
-#impDiv {
-    display: none;
-    width: 100%;
-    height: 320px;
-    padding: 10px 0;
-    text-align: center;
-    background-color: #72606d;
-    margin-top: 20px;
-}
-
-#freeDiv {
-    display: none;
-    width: 100%;
-    height: 320px;
-    padding: 10px 0;
-    text-align: center;
-    background-color: #bf93a4;
-    margin-top: 20px;
-}
-
-#doDiv {
-    display: none;
-    width: 100%;
-    height: 320px;
-    padding: 10px 0;
-    text-align: center;
-    background-color: #e3dcf2;
-    margin-top: 20px;
-}
-
-#aboutDiv {
-    display: none;
-    width: 100%;
-    height: 320px;
-    padding: 10px 0;
-    text-align: center;
-    background-color: #f2ceb5;
-    margin-top: 20px;
-}
-
-#funDiv {
-    display: none;
-    width: 100%;
-    height: 320px;
-    padding: 10px 0;
-    text-align: center;
-    background-color: #b5e5e3;
-    margin-top: 20px;
 }
 
 

@@ -8,11 +8,6 @@
 </head>
 <body onload="onLoadFunction()">
   <button onclick = "topFunction()" id = "topBtn" title = "Go to top"> Top </button>
-  <!--- Header
-  <div id = "header">
-    <p> </p>
-  </div>
-  --->
   <!--- Nav bar -->
   <div>
     <ul id = "navbar">
@@ -25,18 +20,23 @@
   <div id = "main">
     <center>
       <br>
-      <img src ="pic.png" alt = "Picture of Tiffany Xiao" style = "width: 300px; height: 300px;">
+      <img src ="pic.png" alt = "Picture of Tiffany Xiao" id = "main-pic">
       <h1 id = "intro"> HI, I'M <font color="#ecc3b6">TIFFANY XIAO</font> </h1>
       <h2 id = "title"> Software Engineer with a love for data</h2>
       <h3 id = "quote"> (and dogs) </h3>
-      <a href="https://www.linkedin.com/in/tiffanyxiao/"><img src="linkedin.png" style = "width: 40px; height: 40px"></a>
-      <a href="mailto:cdtiffanyxiao@gmail.com"><img src="email.png" style = "width: 40px; height: 40px"></a> 
+      <div id ="social-media-icons">
+        <a href="https://github.com/tiffanyxiao"><img src="github.png"></a> 
+        <a href="https://www.linkedin.com/in/tiffanyxiao/"><img src="linkedin.png"></a>
+        <a href="mailto:cdtiffanyxiao@gmail.com"><img src="email.png"></a> 
+      </div>
     </center>
   </div>
   <!-- Code section -->
   <div class = "section code" id = "code">
     <div>
-      <h1 class = "section_title"> About Me </h1>
+      <center>
+        <h1 class = "section_title" id = "about-me-text"> About Me </h1>
+      </center>
       <div style="width:75%;float:left;">
         <p id = "section_text_code"> 
           I graduated a little over a year ago from Smith College as a double major in Computer Science and Statistical Data Sciences. During my time at Smith, I spent my days doing things like conducting statistical research projects with elementary school children, contributing to open source coding projects and learning tai chi.
@@ -49,11 +49,11 @@
           <br>
           <br>
           Press "T" for a fun surprise!
-          <img src="tofu_eating-removebg-preview.png" alt = "Picture of Tofu ready to eat!" style = "width: 10%; height: 10%;" id="tofu-eating">
+          <img src="tofu_eating-removebg-preview.png" alt = "Picture of Tofu ready to eat!" style = "position:absolute; width: 12vw; height: 12vw;" id="tofu-eating">
         </p>
       </div>
       <div style="padding-bottom:10%;width:25%;float:right;">
-        <img src ="tofu.jpg" alt = "Picture of Tofu, Tiffany's dog" style = "width: 75%; height: 75%;">
+        <img src ="tofu.jpg" alt = "Picture of Tofu, Tiffany's dog" style = "width: 75%; height: 75%; padding-top:10%">
         <img src ="dumbo.png" alt = "Picture of Two Dumbos" style = "width: 75%; height: 75%;">
       </div> 
     </div>
