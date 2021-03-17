@@ -82,7 +82,6 @@ function onLoadFunction(){
     document.addEventListener("keyup", function(event) {
         if (event.keyCode == 84) {
             createBoneImg();
-            tofuMove();
         }
     });
 }
