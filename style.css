@@ -227,3 +227,8 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.image-with-border{
+  border: 2px solid rgb(0, 0, 0);
+  height: 23vw;
+}
