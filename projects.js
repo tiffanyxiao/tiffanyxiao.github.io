@@ -32,8 +32,8 @@ let data = [
         "dateCompleted": "December 15, 2019",
         "partners": "Nancy Canevari",
         "skillsUsed": "Research Design, Data Collection, Data Modeling, Statistics",
-        "paragraphs": ["For this project, we designed a research project focused on exploring the factors that affect pencil grip development in children. The goal was to provide the teachers with insights on what may affect a child's pencil grip development and how they could promote \"good\" pencil grip", "We worked with three different classrooms of 1st and 2nd grade children. As part of this project, we developed fun activities that would allow us to observe the different factors that may affect pencil grip, and performed these activities with the children 3+ times a week.", "Contact me to learn more about this research project."],
-        "link": ""
+        "paragraphs": ["For this project, we designed a research project focused on exploring the factors that affect pencil grip development in children. The goal was to provide the teachers with insights on what may affect a child's pencil grip development and how they could promote \"good\" pencil grip", "We worked with three different classrooms of 1st and 2nd grade children. As part of this project, we developed fun activities that would allow us to observe the different factors that may affect pencil grip, and performed these activities with the children 3+ times a week.", "Contact me to learn more about this research project. Below is a link to an article from the school I worked with, which includes an interview I did on the project: "],
+        "link": "https://sophia.smith.edu/labschool/2020/01/27/research-methods-in-education-a-new-course-fosters-collaboration-at-campus-school/"
     },
     {
         "name": "TA Hours Queue",
