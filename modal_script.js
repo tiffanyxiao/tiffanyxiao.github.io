@@ -63,31 +63,19 @@ data.forEach((project) => {
         newModalContent.appendChild(tempPara);
     });
 
+    let linkPara= document.createElement("p");
     let newModalLink= document.createElement("a");
     newModalLink.href = project["link"];
     newModalLink.innerHTML = project["link"];
-    newModalContent.appendChild(newModalLink);
+    linkPara.appendChild(newModalLink);
+    let newModalBreak2 = document.createElement("br");
+    linkPara.appendChild(newModalBreak2);
+    newModalContent.appendChild(linkPara);
 
     newModalContentBox.appendChild(newModalContent);
     newModal.appendChild(newModalContentBox);
 
     let divOfModals = document.getElementById("projects-rows");
-    // let rowDiv;
-    // if ((numModals-1) % 4 == 0){
-    //     row += 1;
-    //     let linebreak = document.createElement("br");
-    //     divOfModals.appendChild(linebreak);
-    //     let linebreak1 = document.createElement("br");
-    //     divOfModals.appendChild(linebreak1);
-    //     let linebreak2 = document.createElement("br");
-    //     divOfModals.appendChild(linebreak2);
-    //     rowDiv = document.createElement("div");
-    //     rowDiv.id = "project-row"+row;
-    // } else {
-    //     rowDiv = document.getElementById("project-row"+row);
-    // }
-    // rowDiv.appendChild(newModal);
-    // divOfModals.appendChild(rowDiv);
     divOfModals.appendChild(newModal);
 
     // When the user clicks the button, open the modal

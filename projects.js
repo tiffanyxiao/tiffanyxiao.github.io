@@ -1,5 +1,17 @@
 let data = [
     {
+        "name": "Projects @ Palantir",
+        "btnID": "9",
+        "coverImage": "Project/palantir_projects.png",
+        "innerImage": "Project/palantir_projects.png",
+        "modalId": "9",
+        "dateCompleted": "--- ; Started on Dec 2019",
+        "partners": "Palantir Team",
+        "skillsUsed": "Python, Java, Javascript, SQL + more",
+        "paragraphs": ["At Palantir, I've worked on a variety of projects!", "Contact me to learn more about the various things I've done at Palantir (you can see some details on my resume)."],
+        "link": ""
+    },
+    {
         "name": "OpenElections: Freeing Election Data",
         "btnID": "6",
         "coverImage": "Project/openelections_outer.jpg",
@@ -20,7 +32,7 @@ let data = [
         "dateCompleted": "December 15, 2019",
         "partners": "Nancy Canevari",
         "skillsUsed": "Research Design, Data Collection, Data Modeling, Statistics",
-        "paragraphs": ["para1", "para2", "para3"],
+        "paragraphs": ["For this project, we designed a research project focused on exploring the factors that affect pencil grip development in children. The goal was to provide the teachers with insights on what may affect a child's pencil grip development and how they could promote \"good\" pencil grip", "We worked with three different classrooms of 1st and 2nd grade children. As part of this project, we developed fun activities that would allow us to observe the different factors that may affect pencil grip, and performed these activities with the children 3+ times a week.", "Contact me to learn more about this research project."],
         "link": ""
     },
     {
@@ -53,11 +65,11 @@ let data = [
         "coverImage": "Project/predicting_billionaires_networth_outer.jpg",
         "innerImage": "Project/predicting_billionaires_networth_inner.png",
         "modalId": "8",
-        "dateCompleted": "May 8, 2018",
-        "partners": "Khadidja Fares",
-        "skillsUsed": "Javascript, HTML/CSS, Design",
-        "paragraphs": ["GenNow was built with the purpose of helping non-profit organizations be able to quickly and easily generate static websites to display their organization's information.", "Contact me if you'd like to see our final paper on this project.", "GENerate your website NOW at"],
-        "link": "https://tiffanyxiao.com/nonprofit-website-generator/index.html"
+        "dateCompleted": "May 15, 2018",
+        "partners": "Audrey Jiang, Emma Ning",
+        "skillsUsed": "Statistics, Multiple Regression",
+        "paragraphs": ["For this project, we used different multiple regression models to attempt to best model the factors that affect a billionaire's networth. We sought to answer the following question: ", "Are age, number of source of wealth, type of industry, region, gender and type of wealth of a billionaire significantly associated with his or her net worth? If so, how do they influence the networth (positive or negative effect)?", "Contact me for the research paper." ],
+        "link": ""
     },
     {
         "name": "GenNow: A Simple Website Generator",
@@ -84,6 +96,30 @@ let data = [
         "link": "Project/airbnb_poster.pdf"
     },
     {
+        "name": "Facebook or FAKEbook: Statistics Project",
+        "btnID": "12",
+        "coverImage": "Project/facebook_outer.png",
+        "innerImage": "Project/facebook_inner.png",
+        "modalId": "12",
+        "dateCompleted": "December 12, 2017",
+        "partners": "Lauryn Aliwalas, Xela Miller",
+        "skillsUsed": "R, Multiple Regression, Statistics",
+        "paragraphs": ["In an era where fake news can gain a massive amount of popularity through social media websites such as Facebook, its important to critically analyze how these news posts gain popularity. For this project, we sought to examine news posts on Facebook and the factors that potentially led to their popularity.", "Specifically, we wanted to answer: \"For a news post on Facebook, does its factual rating, post type, number of comments, and/or political category have any influence on the frequency of shares this post gets?\"", "To answer this question, we searched for the best model that accurately predicted the frequency of shares on a post.", "Contact me for more information."],
+        "link": ""
+    },
+    {
+        "name": "A Data Analyst's Guide to Pokemon",
+        "btnID": "11",
+        "coverImage": "Project/pokemon_outer.png",
+        "innerImage": "Project/pokemon_inner.png",
+        "modalId": "11",
+        "dateCompleted": "May 19, 2017",
+        "partners": "Juliana Mishkin",
+        "skillsUsed": "R, Python, HTML/CSS, Adobe Illustrator+Photoshop",
+        "paragraphs": ["For this project, we wanted to create a fun visualization using a publicly available dataset.", "We chose to use a Pokemon dataset from Kaggle (https://www.kaggle.com/rounakbanik/pokemon). From this dataset, we built numerous R visualizations and accompanying programs to analyze the Pokemon data. For example, we created an R program that takes two Pokemon as inputs and compares their stats.", "You can use these analyses to become the best trainer there ever was :)","See the full visualization at the below link, and contact me for more information:"],
+        "link": "Project/pokemon_full.png"
+    },
+    {
         "name": "True Stories of Dr. Seuss",
         "btnID": "4",
         "coverImage": "Project/drseuss.jpg",
@@ -94,6 +130,18 @@ let data = [
         "skillsUsed": "Adobe Premiere + Photoshop + Illustrator",
         "paragraphs": ["As part of one of my academic final projects, I was told to write a paper on anything I discovered in the town of my college (Northampton, MA).", "For this topic, I chose to write about a Dr. Seuss exhibit I found in the town's local museum. Dr. Seuss's hometown is Springfield, MA, which is less than 10 minutes away from Northampton.", "Contact me for the full research paper", "As part of the project, I also created a youtube video summarizing my findings. You can find the youtube video at"],
         "link": "https://www.youtube.com/watch?v=9fD3JglPQXs"
+    },
+    {
+        "name": "High Schoolers in Computer Science",
+        "btnID": "10",
+        "coverImage": "Project/high_school_cs_outer.png",
+        "innerImage": "Project/high_school_cs_inner.png",
+        "modalId": "10",
+        "dateCompleted": "December 10, 2016",
+        "partners": "None",
+        "skillsUsed": "Tableau, Data Visualization, Statistics, Data Cleaning, Python",
+        "paragraphs": ["As a female person of color in computer science, I care deeply about making sure that minority groups are welcomed and included in the industry. One of the ways to get more people involved in computer science is to introduce it to them at a young age. For this project, I wanted to explore the demographic of the students who take AP Computer Science in high school and see if I could identify any trends.", "I created a research paper with a number of interactive visualizations based on national 2016 data related to the AP Computer Science exams.", "Contact me for more information."],
+        "link": ""
     },
     // {
     //     "name": "Name",
