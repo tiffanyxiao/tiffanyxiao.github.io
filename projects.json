@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "name": "Name",
+            "btnID": 1,
+            "coverImage": "image.jpg",
+            "modalId": 1,
+            "dateCompleted": "Month Date, Year",
+            "partners": "PartnerName",
+            "skillsUsed": "Javascript",
+            "paragraphs": ["para1", "para2", "para3"],
+        },
+        {
+            "name": "Name",
+            "btnID": 1,
+            "coverImage": "image.jpg",
+            "modalId": 1,
+            "dateCompleted": "Month Date, Year",
+            "partners": "PartnerName",
+            "skillsUsed": "Javascript",
+            "paragraphs": ["para1", "para2", "para3"],
+        },
+        {
+            "name": "Name",
+            "btnID": 1,
+            "coverImage": "image.jpg",
+            "modalId": 1,
+            "dateCompleted": "Month Date, Year",
+            "partners": "PartnerName",
+            "skillsUsed": "Javascript",
+            "paragraphs": ["para1", "para2", "para3"],
+        },
+        {
+            "name": "Name",
+            "btnID": 1,
+            "coverImage": "image.jpg",
+            "modalId": 1,
+            "dateCompleted": "Month Date, Year",
+            "partners": "PartnerName",
+            "skillsUsed": "Javascript",
+            "paragraphs": ["para1", "para2", "para3"],
+        },
+        {
+            "name": "Name",
+            "btnID": 1,
+            "coverImage": "image.jpg",
+            "modalId": 1,
+            "dateCompleted": "Month Date, Year",
+            "partners": "PartnerName",
+            "skillsUsed": "Javascript",
+            "paragraphs": ["para1", "para2", "para3"],
+        }
+    ]
+}

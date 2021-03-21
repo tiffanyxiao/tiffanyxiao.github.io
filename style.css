@@ -232,3 +232,19 @@
   border: 2px solid rgb(0, 0, 0);
   height: 23vw;
 }
+
+.modal-style{
+  float: left; 
+  width: 24%;
+  margin-right: 1%; 
+  margin-bottom: 0.5em;
+}
+
+.modal-inner-image{
+  width: 40%; 
+  float: left;
+}
+
+.modal-p-style{
+  clear: both;
+}
