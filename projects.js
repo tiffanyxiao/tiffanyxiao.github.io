@@ -5,7 +5,7 @@ let data = [
         "coverImage": "Project/palantir_projects.png",
         "innerImage": "Project/palantir_projects.png",
         "modalId": "9",
-        "dateCompleted": "--- ; Started on Dec 2019",
+        "dateCompleted": "--- ; Started full-time on Dec 2019, interned Summer 2019 + Summer 2018",
         "partners": "Palantir Team",
         "skillsUsed": "Python, Java, Javascript, SQL + more",
         "paragraphs": ["At Palantir, I've worked on a variety of projects!", "Contact me to learn more about the various things I've done at Palantir (you can see some details on my resume)."],
