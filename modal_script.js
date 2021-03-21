@@ -1,4 +1,8 @@
+let numModals = 0;
+let row = 0;
+
 data.forEach((project) => {
+    numModals += 1;
     let newModal = document.createElement("div");
     newModal.className = "modal-style";
 
@@ -45,19 +49,18 @@ data.forEach((project) => {
     newModalContent.appendChild(newModalPartners);
 
     let newModalSkills= document.createElement("h2");
-    newModalSkills.innerHTML = "Skills Used:"+project["skillsUsed"];
+    newModalSkills.innerHTML = "Skills Used: "+project["skillsUsed"];
     newModalContent.appendChild(newModalSkills);
 
     let newModalPara= document.createElement("p");
     newModalPara.className = "modal-p-style";
     newModalContent.appendChild(newModalPara);
 
+    newModalContent.appendChild(newModalBreak);
     project["paragraphs"].forEach((paragraph) =>{
         let tempPara= document.createElement("p");
         tempPara.innerHTML = paragraph;
         newModalContent.appendChild(tempPara);
-        // newModalContent.appendChild(newModalBreak);
-        // newModalContent.appendChild(newModalBreak);
     });
 
     let newModalLink= document.createElement("a");
@@ -69,6 +72,22 @@ data.forEach((project) => {
     newModal.appendChild(newModalContentBox);
 
     let divOfModals = document.getElementById("projects-rows");
+    // let rowDiv;
+    // if ((numModals-1) % 4 == 0){
+    //     row += 1;
+    //     let linebreak = document.createElement("br");
+    //     divOfModals.appendChild(linebreak);
+    //     let linebreak1 = document.createElement("br");
+    //     divOfModals.appendChild(linebreak1);
+    //     let linebreak2 = document.createElement("br");
+    //     divOfModals.appendChild(linebreak2);
+    //     rowDiv = document.createElement("div");
+    //     rowDiv.id = "project-row"+row;
+    // } else {
+    //     rowDiv = document.getElementById("project-row"+row);
+    // }
+    // rowDiv.appendChild(newModal);
+    // divOfModals.appendChild(rowDiv);
     divOfModals.appendChild(newModal);
 
     // When the user clicks the button, open the modal
@@ -84,21 +103,11 @@ data.forEach((project) => {
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    let modal = document.getElementById("myModal1");
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-    modal = document.getElementById("myModal2");
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-    modal = document.getElementById("myModal3");
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-    modal = document.getElementById("myModal4");
-    if (event.target == modal) {
-        modal.style.display = "none";
+    for (let i=1; i < numModals+1; i++){
+        let modal = document.getElementById("myModal"+i);
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
     }
 }
 

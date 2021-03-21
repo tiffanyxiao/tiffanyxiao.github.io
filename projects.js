@@ -1,5 +1,41 @@
 let data = [
     {
+        "name": "OpenElections: Freeing Election Data",
+        "btnID": "6",
+        "coverImage": "Project/openelections_outer.jpg",
+        "innerImage": "Project/openelections_inner.png",
+        "modalId": "6",
+        "dateCompleted": "December 15, 2019",
+        "partners": "Maggie C., Kara A., Karen S.",
+        "skillsUsed": "R, Shiny, Python, Pandas, Javascript, HTML/CSS",
+        "paragraphs": ["Open Elections is an open-source political-party-independent project started by Derek Willis, an interactive developer at the New York Times, to provide clean and usable data from state and local elections to those who need it regardless of that persons data literacy.", "For this project, my team and I worked on parsing a subset of the OpenElection data. We created a paper detailing our process, a methods flowchart for others working on this project, and an R Shiny App visualizing the data we successfully parsed. We won third place in the 2019 Fall Undergraduate Statistics Research Project (USRESP) competition with the methods paper.", "See more about this project at its GitHub page:"],
+        "link": "https://sds-capstone.github.io/openelections/index.html"
+    },
+    {
+        "name": "Pencil Grip Development in Children",
+        "btnID": "7",
+        "coverImage": "Project/pencil_grip_outer.jpg",
+        "innerImage": "Project/pencil_grip_inner.png",
+        "modalId": "7",
+        "dateCompleted": "December 15, 2019",
+        "partners": "Nancy Canevari",
+        "skillsUsed": "Research Design, Data Collection, Data Modeling, Statistics",
+        "paragraphs": ["para1", "para2", "para3"],
+        "link": ""
+    },
+    {
+        "name": "TA Hours Queue",
+        "btnID": "5",
+        "coverImage": "Project/ta_hours_queue_outer.jpg",
+        "innerImage": "Project/ta_hours_queue_inner.jpg",
+        "modalId": "5",
+        "dateCompleted": "December 15, 2019",
+        "partners": "None",
+        "skillsUsed": "Node.js, SQL, Javascript, HTML/CSS, Design",
+        "paragraphs": ["A website with queue functionalities to help teaching assistants (TAs) during their teaching assistant hours. This project was built with the intention to serve the Smith College Computer Science department, based on the needs I identified during my time as teaching assistant. This is a personal project done with guidance from Professor Foley as a special studies course in my final semester (Fall 2019). It is not officially associated with the Smith College Computer Science department. Please feel free to adapt this project to your own needs (with due credit where necessary), and contact me with any questions.", "Learn more about the TA hours queue on my github: "],
+        "link": "https://github.com/tiffanyxiao/ta-hours-queue"
+    },
+    {
         "name": "Modeling Child Congition",
         "btnID": "1",
         "coverImage": "Project/modeling_child_cognition.jpg",
@@ -10,6 +46,18 @@ let data = [
         "skillsUsed": "R, Multiple Rgression",
         "paragraphs": ["For this project, I worked with Professor Peter De Villiers to build models for exploring Theory of Mind differences between monolingual and bilingual children.", "Children grow in a variety of environments with different factors that can affect their development. From socioeconomic factors to bilingualism, there is interest on how these factors can affect a child’s development. In particular, there has been much research focused on the development of children’s Theory of Mind (ToM), or how a child is able to understand their own and others’ minds. In this project, we explored the potential impacts of factors such as language and executive functioning performance in children’s development. Specifically, we sought to analyze the question: What is the role of executive functioning and language skills in theory of mind performance in bilingual versus monolingual children?", "Contact me for the research paper."],
         "link": ""
+    },
+    {
+        "name": "Predicting Billionaires' Networth",
+        "btnID": "8",
+        "coverImage": "Project/predicting_billionaires_networth_outer.jpg",
+        "innerImage": "Project/predicting_billionaires_networth_inner.png",
+        "modalId": "8",
+        "dateCompleted": "May 8, 2018",
+        "partners": "Khadidja Fares",
+        "skillsUsed": "Javascript, HTML/CSS, Design",
+        "paragraphs": ["GenNow was built with the purpose of helping non-profit organizations be able to quickly and easily generate static websites to display their organization's information.", "Contact me if you'd like to see our final paper on this project.", "GENerate your website NOW at"],
+        "link": "https://tiffanyxiao.com/nonprofit-website-generator/index.html"
     },
     {
         "name": "GenNow: A Simple Website Generator",

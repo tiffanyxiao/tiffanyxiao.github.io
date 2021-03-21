@@ -230,17 +230,19 @@
 
 .image-with-border{
   border: 2px solid rgb(0, 0, 0);
-  height: 23vw;
+  height: 18vw;
 }
 
 .modal-style{
   float: left; 
-  width: 24%;
-  margin-right: 1%; 
-  margin-bottom: 0.5em;
+  width: 22vw;
+  height: 25vw;
+  padding: 1%;
+  font-size: 2vw;
 }
 
 .modal-inner-image{
+  border: 2px solid rgb(0, 0, 0);
   width: 40%; 
   float: left;
 }
@@ -248,3 +250,4 @@
 .modal-p-style{
   clear: both;
 }
+
